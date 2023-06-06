@@ -1,5 +1,3 @@
-server:
-  port: 8081
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/users
@@ -13,6 +11,8 @@ spring:
       hibernate:
         format_sql: true
     open-in-view: false
+server:
+  port: 8081
 security:
   jwt:
     secret-key: 73357638792F423F4528482B4D6251655468576D5A7133743677397A24432646
