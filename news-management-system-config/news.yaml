@@ -11,8 +11,6 @@ spring:
       hibernate:
         format_sql: true
     open-in-view: false
-  profiles:
-    active: prod
   data:
     web:
       pageable:
