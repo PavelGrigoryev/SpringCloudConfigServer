@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/news
+    url: jdbc:postgresql://postgres:5432/news
     username: pavel
     password: pavel
   jpa:
@@ -27,4 +27,4 @@ exception:
     enabled: true
 base:
   url:
-    users: http://localhost:8081/users
+    users: http://user-service:8081/users
