@@ -18,9 +18,6 @@ spring:
         max-page-size: 40
     redis:
       host: redis
-cache:
-  algorithm: LFU
-  capacity: 5
 aop:
   logging:
     enabled: true
