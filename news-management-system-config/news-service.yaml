@@ -18,12 +18,6 @@ spring:
         max-page-size: 40
     redis:
       host: redis
-springdoc:
-  swagger-ui:
-    default-models-expand-depth: -1
-cache:
-  algorithm: LFU
-  capacity: 5
 aop:
   logging:
     enabled: true
